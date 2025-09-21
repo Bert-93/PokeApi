@@ -1,0 +1,11 @@
+@PokeApi_HostAddress = http://localhost:5159
+
+GET {{PokeApi_HostAddress}}/api/pokemon/ditto
+Accept: application/json
+
+###
+
+GET {{PokeApi_HostAddress}}/api/pokemon/species/aegislash
+Accept: application/json
+
+###
